@@ -1,0 +1,15 @@
+# Données (volumineuses)
+data_lake/
+data_warehouse/
+
+# Environnement Python
+venv/
+__pycache__/
+*.pyc
+
+# Notebooks (peuvent contenir des outputs lourds)
+.ipynb_checkpoints/
+
+# DuckDB (base locale)
+*.duckdb
+*.duckdb.wal
